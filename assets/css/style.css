@@ -1,0 +1,24 @@
+.debug *{
+    border: 1px dashed black;
+}
+
+.debug header{
+    min-height: 100px;
+    background-color: aqua;
+}
+
+.debug main .container{
+    min-height: 500px;
+    background-color: blue;
+}
+
+.debug .row{
+    min-height: 200px;
+    background-color:green;
+}
+
+.debug [class^=col-]{
+    min-height: 100px;
+    background-color: blue;
+
+}
